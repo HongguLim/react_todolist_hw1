@@ -28,7 +28,7 @@ function TodoList() {
         <form className="add_form">
           <div>
             <label className="form_label">제목</label>
-            <input type="text" name="input_title" onclick="add_input"></input>
+            <input type="text" name="input_title" className="add_input"></input>
             <label className="form_label">내용</label>
             <input
               type="text"
@@ -36,9 +36,7 @@ function TodoList() {
               className="add_input"
             ></input>
           </div>
-          <button className="add_button" id="click_add_button">
-            추가하기
-          </button>
+          <button className="add_button">추가하기</button>
         </form>
 
         <h1 className="Working">Working.. 🔥</h1>

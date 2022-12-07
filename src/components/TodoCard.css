@@ -8,7 +8,7 @@
   padding-top: 10px;
 }
 
-button {
+.delete_button {
   border-radius: 10px;
   width: 100px;
   height: 40px;
@@ -17,10 +17,20 @@ button {
 }
 
 .delete_button {
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
   background-color: crimson;
   color: white;
 }
 
 .done_button {
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
   margin-left: 10px;
 }
