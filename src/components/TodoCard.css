@@ -4,3 +4,23 @@
   padding: 12px 24px 24px;
   width: 270px;
 }
+.button_set {
+  padding-top: 10px;
+}
+
+button {
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.delete_button {
+  background-color: crimson;
+  color: white;
+}
+
+.done_button {
+  margin-left: 10px;
+}
