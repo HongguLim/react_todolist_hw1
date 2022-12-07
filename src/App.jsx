@@ -28,7 +28,7 @@ function TodoList() {
         <form className="add_form">
           <div>
             <label className="form_label">제목</label>
-            <input type="text" name="input_title" className="add_input"></input>
+            <input type="text" name="input_title" onclick="add_input"></input>
             <label className="form_label">내용</label>
             <input
               type="text"
